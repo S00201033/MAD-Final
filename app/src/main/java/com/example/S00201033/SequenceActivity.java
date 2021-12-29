@@ -40,11 +40,11 @@ public class SequenceActivity extends AppCompatActivity implements SensorEventLi
     int counterWest = 0;
 
 
-    private final double NORTH_MOVE_FORWARD = 9.0;     // upper mag limit
-    private final double NORTH_MOVE_BACKWARD = 7.0;      // lower mag limit
+    private final double NORTH_MOVE_FORWARD = 8.0;     // upper mag limit
+    private final double NORTH_MOVE_BACKWARD = 6.0;      // lower mag limit
 
-    private final double SOUTH_MOVE_FORWARD = 7.0;     // upper mag limit
-    private final double SOUTH_MOVE_BACKWARD = 9.0; // lower mag limit
+    private final double SOUTH_MOVE_FORWARD = 6.0;     // upper mag limit
+    private final double SOUTH_MOVE_BACKWARD = 8.0; // lower mag limit
 
 
     private final double WEST_MOVE_FORWARD = -4;     // upper mag limit
